@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    class MeleeWeapon : Weapon
+    class RangedWeapons : Weapon 
     {
         public enum Types
         {
-            Longsword,
-            Dagger
+            Rifle,
+            longbow
         }
-        
-        public MeleeWeapon(string Name, int damage, int range, int cost)
+
+        public RangedWeapon(string Name, int damage, int range, int cost)
         {
 
         }

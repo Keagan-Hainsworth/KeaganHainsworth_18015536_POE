@@ -8,20 +8,19 @@ namespace Game
 {
     abstract class Weapon : Item
     {
-        public int Damage
+        public string WeaponType
         {
-            get
-            set
-                
-        }
-
-        public int Range
-        {
-            get { return }
+            get { }
             set { }
         }
 
-        public int Durability
+        public int Damage
+        {
+            get { }
+            set { }
+        }
+
+        public int Range
         {
             get { }
             set { }
@@ -31,12 +30,6 @@ namespace Game
         {
             get { }
             set { }
-        }
-
-        public string Weapon_Type
-        {
-            get { }
-            set 
         }
     }
 }
